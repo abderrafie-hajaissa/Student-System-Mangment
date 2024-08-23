@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Work Sans", sans-serif;
+}
+
+body{
+    background-color: whitesmoke;
+}
+.Conatiner{
+    display: flex;
+    justify-content: space-between;
+}
+.Conatiner aside{
+    background-color: white;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+aside img{
+    width: 200px;
+}
+aside label{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+aside input{
+    padding: 3px;
+}
+aside #button{
+    padding: 8px;
+    background-color: cadetblue;
+    border: 1px solid cadetblue;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+aside #button:hover{
+    background-color: transparent;
+    border: 1px solid cadetblue;
+    color: cadetblue;
+}
+main {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* خليت الظل للبلاصة ديال الطابلو */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: 16px;
+}
+
+th, td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: cadetblue;
+    color: white;
+    font-weight: bold;
+}
+
+tr:hover {
+    background-color: #f5f5f5; /* تغيير الخلفية فاش تحوم فوق السطر */
+}
+
+td {
+    color: #333;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* لون مختلف لكل سطر ثاني */
+}
